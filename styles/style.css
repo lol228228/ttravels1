@@ -1,0 +1,341 @@
+* {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+a,
+a:hover {
+   text-decoration: none;
+}
+
+p,
+ul {
+   margin-bottom: 0;
+}
+
+img {
+   width: 100%;
+}
+
+/*  ====================================== HEADER start ==================================== */
+.header {
+   height: 986px;
+}
+
+.header-content {
+   background: url(../images/header__bg.jpg)no-repeat center /cover;
+}
+
+.menu {
+   background: #fff;
+   padding: 53px 0;
+}
+
+.logo {
+   text-transform: uppercase;
+   font-family: 'Roboto';
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 28px;
+   color: rgba(1, 21, 85, 0.7);
+}
+
+.logo:hover {
+   color: rgba(1, 21, 85, 0.7);
+}
+
+.burger-menu {
+   color: #746f77;
+   font-size: 28px;
+}
+
+.header-content__title {
+   font-family: 'Roboto';
+   font-weight: 100;
+   color: #626262;
+   font-size: 50px;
+   text-align: center;
+   margin-bottom: 22px;
+}
+
+.header-content__title span {
+   font-family: 'Roboto';
+   font-weight: 700;
+   color: #011556;
+}
+
+.header-content__description {
+   color: #000;
+   font-family: 'Roboto';
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 25px;
+   text-align: center;
+   margin-bottom: 106px;
+}
+
+.header-form {
+   background: #fff;
+   padding: 32px 41px 13px;
+   max-width: 376px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.header-form__title {
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 20px;
+   color: rgba(1, 21, 86, 0.9);
+   text-align: center;
+   margin-bottom: 42px;
+}
+
+.header-form input,
+.header-form textarea {
+   border: none;
+   border-bottom: 1px solid #c7c7c7;
+   border-radius: 0;
+   padding: 10px 5px;
+   margin-bottom: 26px;
+}
+
+.header-form textarea {
+   min-height: 93px;
+   resize: none;
+}
+
+.header-form input:focus,
+.header-form textarea:focus {
+   box-shadow: none;
+}
+
+
+.header-form button {
+   background: #011556;
+   color: white;
+   font-family: 'Roboto';
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 11px;
+   border-radius: 27px;
+   padding: 20px 23px 18px 23px;
+
+}
+
+.header-form {
+   text-align: center;
+}
+
+/*  ====================================== HEADER end =================================== */
+/*  ====================================== Main start =================================== */
+.tours {
+   padding: 70px 0;
+
+}
+
+.tours__title {
+   font-family: 'Roboto';
+   font-weight: 900;
+   font-size: 50px;
+   color: rgb(1, 21, 86, 0.8);
+   margin-bottom: 60px;
+}
+
+.tours__link {
+   font-family: 'Roboto';
+   font-weight: 700;
+   color: #011556;
+   font-size: 36px;
+   border-bottom: 3px solid #011556;
+}
+
+.seghts {
+   background: #fafafa;
+   padding: 70px 0;
+}
+
+.sights__title {
+   font-family: 'Roboto';
+   font-weight: 900;
+   font-size: 50px;
+   color: rgb(1, 21, 86, 0.8);
+   margin-bottom: 50px;
+}
+
+.sights__description {
+   font-family: 'Roboto';
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 25px;
+   color: rgba(0, 0, 0, 0.5);
+   margin-bottom: 110px;
+}
+
+.sights__box {
+   position: relative;
+   margin-bottom: 23px;
+}
+
+.sights__box__hover {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   align-items: center;
+   background: rgba(204, 210, 230, 0.75);
+transform: scaleX(0);
+}
+
+.sights-box__title {
+   color: #011556;
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 30px;
+}
+
+.sights-box__description {
+   color: #011556;
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   max-width: 210px;
+   width: 100%;
+}
+
+.sights-box__link{
+   background: #011556;
+   color: #fff;
+   line-height: 12px;
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-style: 17px;
+   border-radius: 24px;
+   padding: 16px 43px;
+}
+
+.sights-box__link:hover{
+   color: #FFF;
+}
+
+.sights__box:hover .sights__box__hover{
+ transform: scaleX(1);
+   transition: 0.5s;
+  
+}
+
+.documents{
+   padding: 70px 0;
+}
+
+.documents__title {
+   font-family: 'Roboto';
+   font-weight: 900;
+   font-size: 50px;
+   color: rgb(1, 21, 86, 0.8);
+   margin-bottom: 50px;
+   text-align: center;
+}
+
+.documents__text{
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 20px;
+   color: #000;
+   line-height: 25px;
+}
+
+.documents__list,
+   .documents__info{
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 20px;
+   color: #000;
+   line-height: 25px;
+   margin-top: 22px;
+}
+
+.documents__list span{
+   margin-right: 40px;
+}
+
+.best-tours{
+   padding: 70px 0;
+   background: #fbfbfb;
+}
+
+.best-tours__title {
+   font-family: 'Roboto';
+   font-weight: 900;
+   font-size: 50px;
+   color: rgb(1, 21, 86, 0.8);
+   margin-bottom: 36px;
+}
+
+.best-tours__description {
+   font-family: 'Roboto';
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 25px;
+   color: rgba(0, 0, 0, 0.5);
+   margin-bottom: 110px;
+}
+
+.best-box__description{
+   background: white;
+   max-width: 262px;
+   width: 100%;
+   bottom: -28px;
+   box-shadow: 0 6px 16px rgba(20, 20, 21, 0.08);
+   padding: 11px 6px 30px;
+   font-size: 'Roboto';
+   font-weight: 500;
+   font-size: 28px;
+   color: rgba(0, 0, 0, 0.7);
+   line-height: 20px;
+}
+
+.best-box{
+   display: flex;
+   justify-content: center;
+}
+
+.best-box__description span{
+   font-size: 24px;
+   line-height: 17px;
+   color: rgba(1, 21, 86, 0.7);
+   margin-top: 13px;
+}
+
+.reviews__title {
+   font-family: 'Roboto';
+   font-weight: 900;
+   font-size: 50px;
+   color: rgb(1, 21, 86, 0.8);
+   margin-bottom: 50px;
+   text-align: center;
+}
+
+.reviews__description {
+   font-family: 'Roboto';
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 25px;
+   color: rgba(0, 0, 0, 0.5);
+   margin-bottom: 110px;
+}
+
+.reviews-box{
+   padding: 94px 44px 38px;
+   box-shadow: 0 0 27px rgba(20, 20, 20, 0.09);
+}
+
+.revirews-box__icons{
+   font-size: 13px;
+   color: #ffef3b;
+}
+
+/*  ====================================== Main end =================================== */
